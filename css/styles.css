@@ -1,3 +1,7 @@
 [data-ember-action] {
   cursor: pointer;
 }
+
+div {
+  border: 1px solid black;
+}

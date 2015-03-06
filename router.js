@@ -1,3 +1,6 @@
 Junkmail.Router.map(function() {
-  this.resource('?', {path: '/'});
+  this.resource('inboxmessages', {path: '/'}, function() {
+    this.resource('welcome');
+  });
+  this.resource('outgoingmessages');
 });
