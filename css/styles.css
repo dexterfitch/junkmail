@@ -5,3 +5,11 @@
 div {
   border: 1px solid black;
 }
+
+th, td {
+  padding-right: 1em;
+}
+
+.box-list {
+  padding-right: 3em;
+}
