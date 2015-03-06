@@ -5,4 +5,5 @@ Junkmail.Router.map(function() {
   this.resource('outgoingmessages', function() {
     this.resource('outgoingmessage', {path: 'outgoingmessages/:outgoingmessage_id'});
   });
+  this.resource('compose');
 });
