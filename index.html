@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Junkmail: A trashy pseudo-mailclient</title>
+    <title>Junkmail: A trashy pseudo mail-client</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -17,17 +17,15 @@
     <script src="router.js"></script>
     <script src="store.js"></script>
 
-    <script src="controllers/outgoingmessages.js"></script>
-    <script src="controllers/new-outgoingmessage.js"></script>
+    <script src="controllers/new-message.js"></script>
 
-    <script src="routes/outgoingmessages.js"></script>
-    <script src="routes/outgoingmessage.js"></script>
+    <script src="models/message.js"></script>
 
-    <script src="models/outgoingmessage.js"></script>
-
+    <script src="routes/messages.js"></script>
+    <script src="routes/message.js"></script>
 
     <script>
-      EmberHandlebarsLoader.loadTemplates(['application', 'inboxmessages', 'outgoingmessages', 'welcome', 'outgoingmessage', 'new-outgoingmessage']);
+      EmberHandlebarsLoader.loadTemplates(['application', 'inboxmessages', 'message', 'messages', 'new-message', 'welcome']);
     </script>
 
   </head>
